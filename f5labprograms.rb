@@ -157,7 +157,33 @@ puts(fun(n1,n2))
 =end
 
 =begin
-#seventh program
+#Ninth program
+
+print("Printing the array elements ")
+arr=Array([1,2,2,3,4,54])
+
+for i in arr do 
+	puts(i)
+end
+
+puts()
+=end
+
+=begin
+#Tenth program
+print("Dealing with hashes in ruby ")
+hsh={"507"=>{"s1"=>10,"s2"=>12},"57"=>{"s1"=>10,"s2"=>12}}
+
+
+hsh.each do |key,value|
+	puts("The student with id #{key} marks list")
+	hsh[key].each do |key2,value2|
+		puts("\tIN subject #{key2} secured #{value2} marks ")
+	end
+	puts()
+end
+
+
 =end
 
 
@@ -169,13 +195,7 @@ puts(fun(n1,n2))
 
 
 
-
-
-
-
-
-
-
+	
 
 
 
